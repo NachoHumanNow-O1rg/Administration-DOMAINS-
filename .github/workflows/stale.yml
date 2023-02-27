@@ -19,7 +19,6 @@ jobs:
 
     steps:
     - uses: actions/stale@v5
-      with
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'Stale issue message'
         stale-pr-message: 'Stale pull request message'
